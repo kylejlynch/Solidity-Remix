@@ -40,8 +40,6 @@ contract SmartContractWallet {
         }
     }
 
-
-
     function setAllowance(address _for, uint _amount) public {
         require(msg.sender == owner, "You are not the owner, aborting");
         allowance[_for] = _amount;
