@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "withdrawSend",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "withdrawTransfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/learning_examples/ExampleSendTransfer.sol": "Sender"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/learning_examples/ExampleSendTransfer.sol": {
+			"keccak256": "0xf508e8da06dd72a47f5a9ce27cf1fc385804822e7ac00a4901d29a90a8ecced9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2d62b9effa292c8a5e5b562b2af224aa343f1625e2731af340401e449ea210fa",
+				"dweb:/ipfs/QmfUiBH6us71s6psuBruAkAsc5Wo7MUNTJqFZ1gWKyZxC5"
+			]
+		}
+	},
+	"version": 1
+}
